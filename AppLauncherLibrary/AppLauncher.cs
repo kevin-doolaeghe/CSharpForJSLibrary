@@ -4,6 +4,7 @@ using System.Diagnostics;
 namespace AppLauncherLibrary {
 
     public class AppLauncher {
+
         public string LaunchApp(string program, string args)
         {
             string result = "No error";
@@ -19,6 +20,7 @@ namespace AppLauncherLibrary {
 
             return result;
         }
+
     }
 
 }
